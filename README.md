@@ -4,7 +4,9 @@
 ## Estou aprendendo
 
 <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/> 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z"/>
+
+            <i class="devicon-threedsmax-plain "></i>
+          
 
 <!--
 **Priscilla-Neri/Priscilla-Neri** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
