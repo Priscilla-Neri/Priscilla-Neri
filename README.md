@@ -5,9 +5,9 @@
 #### Top Repositories
 
 
-<a href="https://github.com/priscilla-neri">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=buefy" />
-</a>
+<div> 
+   <a  href= "https://github.com/priscilla-neri">
+   <img height= 180em src= "https://github-readme-status.vercel.app/api?username=priscilla-neri&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
 
 
 
