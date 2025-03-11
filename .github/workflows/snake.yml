@@ -10,18 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout do repositório
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # Atualizado para v4
+
+      - name: Configurar Python (necessário para o SNK)
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
 
       - name: Gerar animação da cobrinha
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v3  # Corrigido para versão correta
         with:
           github_user_name: priscilla-neri
           outputs: |
-            github-contribution-grid-snake.svg
-
-      - name: Commit e push
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Atualizando animação da cobrinha 🐍"
-          branch: output
-
+            dist/g
